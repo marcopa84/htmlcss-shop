@@ -12,9 +12,19 @@
 
 }
 .box{
+  position: relative;
   background: blue;
   display: inline-block;
   width: 300px;
   height: 372px;
   margin: 10px;
+}
+.discount{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: green;
+}
+.red{
+  background: red;
 }
