@@ -5,7 +5,6 @@
 }
 .container{
   margin: auto;
-  background: red;
   position: relative;
   width: 1000px;
   text-align: center;
@@ -13,12 +12,16 @@
 }
 .box{
   position: relative;
-  background: blue;
   display: inline-block;
   width: 300px;
   height: 372px;
   margin: 10px;
+  cursor: pointer;
 }
+.box:hover .heart{
+  display: block;
+}
+
 .discount{
   position: absolute;
   top: 0;
@@ -27,4 +30,12 @@
 }
 .red{
   background: red;
+}
+
+.heart{
+  display: none;
+  position:absolute;
+  bottom: 0;
+  left: 150px;
+  color: red;
 }
