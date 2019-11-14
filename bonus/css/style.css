@@ -5,19 +5,17 @@
 }
 body{
   text-align: center;
-  background-image: url(../img/padding-rhombus-upholstery-background_1053-241.jpg);
-  /* background-repeat: repeat-y; */
-  background-repeat: repeat;
-  /* background-size: cover; */
-  /* width: 100%; */
-  height: 3000px;
+
 }
+/* .menu{
+  position: fixed;
+  top:0;
+  line-height: 50px;
+  background: red;
+
+} */
 .container{
   margin: auto;
-  position: fixed;
-  top: 0;
-  left: 25%;
-  width: 1000px;
   text-align: center;
 
 }
@@ -33,14 +31,27 @@ body{
   display: block;
 }
 
-.discount{
+.etichetta{
+  /* display: inline-block; */
   position: absolute;
-  top: 0;
-  right: 0;
-  background: green;
+  top: 0px;
+  right: 0px;
+  color: green;
+  font-size: 50px;
+}
+.discount{
+  /* display: inline-block; */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  color: white;
+  font-style: oblique;
+  font-weight: bold;
+  /* font-size: 15px; */
 }
 .red{
-  background: red;
+  color: red;
 }
 
 .heart{
