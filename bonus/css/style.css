@@ -5,19 +5,42 @@
 }
 body{
   text-align: center;
-
 }
-/* .menu{
+/* imposto i parametri del menu */
+.menu{
   position: fixed;
-  top:0;
-  line-height: 50px;
-  background: red;
+  top: 5px;
+  right: 200px;
+  z-index: 2;
+}
+.menu div{
+  margin: 10px;
+  padding: 10px;
+  line-height: 15px;
+  background-image: url(../img/padding-rhombus-upholstery-background_1053-241.jpg);
+  border-radius: 5px;
+  text-align: right;
+  display: inline-block;
+}
+.menu a{
+  text-decoration: none;
+  color: rgb (38,184,210);
+  font-weight: 600;
+}
+.menu a:visited{
+  text-decoration: none;
+  color: red;
+  font-weight: 600;
+}
+.menu a:hover{
+  text-decoration: none;
+  color: #26B8D2;
+  font-weight: 600;
+}
 
-} */
+/* imposto i parametri della vetrina */
 .container{
-  margin: auto;
-  text-align: center;
-
+margin: 70px;
 }
 .box{
   position: relative;
@@ -32,7 +55,6 @@ body{
 }
 
 .etichetta{
-  /* display: inline-block; */
   position: absolute;
   top: 0px;
   right: 0px;
@@ -40,7 +62,6 @@ body{
   font-size: 50px;
 }
 .discount{
-  /* display: inline-block; */
   position: absolute;
   top: 20px;
   right: 20px;
@@ -48,16 +69,17 @@ body{
   color: white;
   font-style: oblique;
   font-weight: bold;
-  /* font-size: 15px; */
 }
 .red{
   color: red;
 }
 
 .heart{
+  position: absolute;
   display: none;
-  position:absolute;
-  bottom: 0;
-  left: 150px;
+  top: 111px;
+  right: 75px;
   color: red;
+  font-size: 150px;
+
 }
