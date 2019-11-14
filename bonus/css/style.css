@@ -4,7 +4,13 @@
   box-sizing: border-box;
 }
 body{
+  /* position: fixed;
+  top: 0;
+  left: 0; */
   text-align: center;
+  background-image: url(../img/shop-background-vector-440547.jpg);
+  background-size: cover;
+
 }
 /* imposto i parametri del menu */
 .menu{
